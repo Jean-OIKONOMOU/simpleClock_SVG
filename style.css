@@ -74,7 +74,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(14, 100, 21);
+  background-color: #0e6415;
 }
 
 #timer {
@@ -83,4 +83,40 @@ body {
 
 svg {
   border: 1px solid;
+}
+
+.minutes {
+  fill: transparent;
+  stroke: #0f0e0e;
+  stroke-width: 7;
+  stroke-dasharray: 0.2, 0.8;
+  stroke-dashoffset: 0.1;
+}
+
+.hours {
+  fill: transparent;
+  stroke: #f0f0c9;
+  stroke-width: 7;
+  stroke-dasharray: 0.2, 4.8;
+  stroke-dashoffset: 0.1;
+}
+
+.hand {
+  stroke: #ffffff;
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+
+.hand--thick {
+  stroke-width: 7;
+}
+
+.hand--second {
+  stroke: yellow;
+}
+
+.centre {
+  fill: #0e6415;
+  stroke-width: 4;
+  stroke: white;
 }
