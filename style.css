@@ -74,8 +74,13 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: rgb(14, 100, 21);
 }
 
 #timer {
   font-size: 3rem;
+}
+
+svg {
+  border: 1px solid;
 }
