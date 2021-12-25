@@ -120,3 +120,12 @@ svg {
   stroke-width: 4;
   stroke: white;
 }
+
+.text {
+  fill: #f0f0c9;
+  font-family: "Arial", sans-serif;
+  text-anchor: middle;
+  cursor: pointer;
+  user-select: none;
+  font-size: 36px;
+}
