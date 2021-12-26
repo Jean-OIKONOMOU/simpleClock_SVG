@@ -7,3 +7,7 @@ First time I am actually creating SVG inside an HTML file. Before that I used to
 Simple animated SVG clock.
 
 If you _click_ on the date of the day then it toggles to show you if you are in "PM" or "AM". Event though the time is shown underneath I still found it useful.
+
+# Where can I see the website ?
+
+https://jean-oikonomou.github.io/simpleClock_SVG/
